@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ruler-combined</string>
+
+    <!--    main_activity-->
+    <string name="straight_ruler">Straight Ruler</string>
+    <string name="protractor">Protractor</string>
+
+    <!--    ruler_acceleration-->
+    <string name="x_accel">X:</string>
+    <string name="y_accel">Y:</string>
+    <string name="z_accel">Z:</string>
+    <string name="v_accel">Velocity:</string>
+    <string name="d_accel">Distance:</string>
+</resources>

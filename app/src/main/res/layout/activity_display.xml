@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 用于显示拍摄的图片，全屏背景 -->
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+
+    <!-- 重新拍照按钮 -->
+    <Button
+        android:id="@+id/retakeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retake"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 圆形量角器选择按钮 -->
+    <Button
+        android:id="@+id/circleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circle"
+        android:layout_above="@id/retakeButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 半圆量角器选择按钮 -->
+    <Button
+        android:id="@+id/semiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semi"
+        android:layout_above="@id/retakeButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="8dp" />
+
+</RelativeLayout>
